@@ -1,0 +1,66 @@
+{
+    "name": "John Doe",
+    "planning": "Birthday",
+    "city": "Liverpool",
+    "people": "12",
+    "experience": "Beginner",
+    "activity": "Bubble Soccer",
+    "date": "2026-05-01",
+    "time": "14:00",
+    "email": "johndoe@example.com",
+    "phone": "07123456789",
+    "source": "voice_ai",
+    "received_at": "2026-04-30T15:28:48.334907"
+}
+{
+    "name": "Rafael Rafuizamon",
+    "planning": "birthday party",
+    "city": "Liverpool",
+    "people": "30",
+    "experience": "Bubble United",
+    "activity": "Bubble Soccer",
+    "date": "day after tomorrow",
+    "time": "6 PM",
+    "email": "rafiuzzaman@gmail.com",
+    "phone": "0132218015",
+    "source": "voice_ai",
+    "received_at": "2026-04-30T15:59:30.969834"
+}
+{
+    "name": "Rafael Zaman",
+    "planning": "birthday",
+    "city": "Manchester",
+    "people": "40",
+    "experience": "Spartacus Cup Max",
+    "activity": "Bubble Soccer",
+    "date": "2026-05-01",
+    "time": "7 PM",
+    "email": "rafiuzzaman0028@gmail.com",
+    "phone": "01322158015",
+    "source": "voice_ai",
+    "received_at": "2026-04-30T16:38:30.442904"
+}
+
+{
+    "status": "success",
+    "reply": "Subject: Spartacus Cup Max Booking Update\n\n
+  Hi Rifat,\n\n
+  Thank you for your interest in booking the Spartacus Cup Max on May 3, 2026. 
+  Unfortunately, the original time slot of **11: 30 AM** is no longer available. 
+  However, we have some fantastic alternative slots for you!\n\n
+  I recommend the following options:\n\n
+
+  - **11: 00 AM** - A great way to kick off your day!\n
+  - **12: 00 PM** - Perfect for grabbing lunch right after your session!\n
+  - **1: 00 PM** - A lovely afternoon time to keep the energy flowing!\n\n
+
+  All these slots still have plenty of space available, and I’m sure one of them will work for your group. If none of these times suit you, please remember that we have other slots available throughout the day.\n\n
+  To secure your preferred slot, please reply to this email or visit our website to complete your booking. Just a reminder, we require a £49 deposit to secure your chosen time, and your slot remains open until the deposit is paid.\n\n
+  Feel free to reach out if you have any questions or need further assistance!\n\n
+  
+  Best wishes,  
+  \n[Your Name
+    ]  
+  \nSpartacus Bubble Soccer Team  
+  \n"
+}

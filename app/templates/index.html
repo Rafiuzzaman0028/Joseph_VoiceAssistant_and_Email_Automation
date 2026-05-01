@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Spartacus Booking AI</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="badge">Initial AI Booking System</div>
+
+      <h1>Spartacus Booking AI</h1>
+
+      <p>
+        Generate customer replies using FAQ, dummy customer email API,
+        and dummy slot availability API.
+      </p>
+    </section>
+
+    <section class="layout">
+      <div class="card">
+        <h2>Customer Enquiry</h2>
+
+        <form method="post" class="form">
+          <div class="field">
+            <label for="customer_id">Customer ID</label>
+            <input
+              type="text"
+              id="customer_id"
+              name="customer_id"
+              placeholder="123"
+              value="{{ form_data.customer_id if form_data else '' }}"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label for="message">Customer Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              placeholder="Is 2pm available in Manchester and how much is the deposit?"
+              required
+            >{{ form_data.message if form_data else '' }}</textarea>
+          </div>
+
+          <div class="grid">
+            <div class="field">
+              <label for="city">City</label>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Manchester"
+                value="{{ form_data.city if form_data else '' }}"
+              />
+            </div>
+
+            <div class="field">
+              <label for="date">Date</label>
+              <input
+                type="date"
+                id="date"
+                name="date"
+                value="{{ form_data.date if form_data else '' }}"
+              />
+            </div>
+
+            <div class="field">
+              <label for="time">Time</label>
+              <input
+                type="time"
+                id="time"
+                name="time"
+                value="{{ form_data.time if form_data else '' }}"
+              />
+            </div>
+          </div>
+
+          <button type="submit">Generate Reply</button>
+        </form>
+      </div>
+
+      <div class="card result-card">
+        <h2>AI Reply</h2>
+
+        {% if reply %}
+          <div class="email-box">
+            <span>Email from dummy API</span>
+            <strong>{{ email }}</strong>
+          </div>
+
+          <pre class="reply">{{ reply }}</pre>
+        {% else %}
+          <div class="empty">
+            <h3>No reply yet</h3>
+            <p>Fill the enquiry form and generate a response.</p>
+          </div>
+        {% endif %}
+      </div>
+    </section>
+  </main>
+</body>
+</html>
