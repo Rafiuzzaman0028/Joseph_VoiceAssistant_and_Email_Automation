@@ -12,9 +12,9 @@ def get_system_prompt():
         return f.read()
 
 def generate_ai_reply(context: dict):
-    response = client.responses.create(
+    response = client.chat.completions.create(
         model="gpt-4o-mini",
-        input=[
+        messages=[
             {
                 "role": "system",
                 "content": get_system_prompt(),
@@ -32,4 +32,4 @@ Write one customer reply based on the rules and context above.
         ],
     )
 
-    return response.output_text
+    return response.choices[0].message.content
