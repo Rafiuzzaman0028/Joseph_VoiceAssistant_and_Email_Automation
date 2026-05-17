@@ -1,0 +1,120 @@
+{"question": "How much is the deposit and when do I pay the rest?"}
+{"question": "Can we bring our own food to the Liverpool venue?"}
+{"question": "What happens if it rains on the day of the booking?"}
+{"question": "How much is the deposit and when do I pay the rest?"}
+{"question": "Can we bring our own food to the Liverpool venue?"}
+{"question": "What happens if it rains on the day of the booking?"}
+{"question": "How much is the deposit and when do I pay the rest?"}
+{"question": "Can we bring our own food to the Liverpool venue?"}
+{"question": "What happens if it rains on the day of the booking?"}
+{"question": "How much is the deposit and when do I pay the rest?"}
+{"question": "Can we bring our own food to the Liverpool venue?"}
+{"question": "What happens if it rains on the day of the booking?"}
+{"question": "How much is the deposit and when do I pay the rest?"}
+{"question": "Can we bring our own food to the Liverpool venue?"}
+{"question": "What happens if it rains on the day of the booking?"}
+{"question": "Can we change the numbers of our group if some people drop out last minute?"}
+{"question": "What should we wear for bubble soccer?"}
+{"question": "Do you have food at the Manchester location?"}
+{"question": "What is the best package for a large group of 18 people?"}
+{"question": "How long is a typical session?"}
+{"question": "Can we bring alcohol?"}
+{"question": "Do we need to sign a waiver?"}
+{"question": "What happens if the weather is bad?"}
+{"question": "Is there a deposit required?"}
+{"question": "What is the cancellation policy?"}
+{"question": "Can we reschedule if needed?"}
+{"question": "Are there age restrictions?"}
+{"question": "What is included in the price?"}
+{"question": "Where are the venues located?"}
+{"question": "Do you offer team building packages?"}
+{"question": "Can we book for a kids party?"}
+{"question": "What payment methods do you accept?"}
+{"question": "Is there parking available?"}
+{"question": "Are the pitches indoors or outdoors?"}
+{"question": "What happens if we are late?"}
+{"question": "Can we bring our own cake?"}
+{"question": "Do you provide referees?"}
+{"question": "What safety equipment is provided?"}
+{"question": "Can we bring our own food and drinks?"}
+{"question": "Can we use restroom for 2 days in a row?"}
+{"question": "How much is the deposit and when do I pay the rest?"}
+{"question": "Can we bring our own food to the Liverpool venue?"}
+{"question": "What happens if it rains on the day of the booking?"}
+{"question": "Can we change the numbers of our group if some people drop out last minute?"}
+{"question": "What should we wear for bubble soccer?"}
+{"question": "Do you have food at the Manchester location?"}
+{"question": "What is the best package for a large group of 18 people?"}
+{"question": "How long is a typical session?"}
+{"question": "Can we bring alcohol?"}
+{"question": "Do we need to sign a waiver?"}
+{"question": "What happens if the weather is bad?"}
+{"question": "Is there a deposit required?"}
+{"question": "What is the cancellation policy?"}
+{"question": "Can we reschedule if needed?"}
+{"question": "Are there age restrictions?"}
+{"question": "What is included in the price?"}
+{"question": "Where are the venues located?"}
+{"question": "Do you offer team building packages?"}
+{"question": "Can we book for a kids party?"}
+{"question": "What payment methods do you accept?"}
+{"question": "Is there parking available?"}
+{"question": "Are the pitches indoors or outdoors?"}
+{"question": "What happens if we are late?"}
+{"question": "Can we bring our own cake?"}
+{"question": "Do you provide referees?"}
+{"question": "What safety equipment is provided?"}
+{"question": "Can we bring our own food and drinks?"}
+{"question": "Can we use restroom for 2 days in a row?"}
+{"question": "How much is the deposit and when do I pay the rest?"}
+{"question": "Can we bring our own food to the Liverpool venue?"}
+{"question": "What happens if it rains on the day of the booking?"}
+{"question": "Can we change the numbers of our group if some people drop out last minute?"}
+{"question": "What should we wear for bubble soccer?"}
+{"question": "Do you have food at the Manchester location?"}
+{"question": "What is the best package for a large group of 18 people?"}
+{"question": "How long is a typical session?"}
+{"question": "Can we bring alcohol?"}
+{"question": "Do we need to sign a waiver?"}
+{"question": "What happens if the weather is bad?"}
+{"question": "Is there a deposit required?"}
+{"question": "What is the cancellation policy?"}
+{"question": "Can we reschedule if needed?"}
+{"question": "Are there age restrictions?"}
+{"question": "What is included in the price?"}
+{"question": "Where are the venues located?"}
+{"question": "Do you offer team building packages?"}
+{"question": "Can we book for a kids party?"}
+{"question": "What payment methods do you accept?"}
+{"question": "Is there parking available?"}
+{"question": "Are the pitches indoors or outdoors?"}
+{"question": "What happens if we are late?"}
+{"question": "Can we bring our own cake?"}
+{"question": "Do you provide referees?"}
+{"question": "What safety equipment is provided?"}
+{"question": "Can we bring our own food and drinks?"}
+{"question": "Can we use restroom for 2 days in a row?"}
+{}
+{}
+{}
+VAPI RAW: {}
+VAPI RAW: {}
+VAPI RAW: {}
+VAPI RAW: {}
+VAPI RAW: {}
+VAPI RAW: {}
+VAPI RAW: {}
+VAPI RAW BODY: {}
+VAPI RAW BODY: {}
+VAPI RAW BODY: {"question":"How much is the deposit for an event, and when is the remaining balance due?"}
+VAPI RAW BODY: {"question":"How long is a typical session?"}
+VAPI RAW BODY: {"question":"What happens if it rains on the day of the booking?"}
+VAPI RAW BODY: {"question":"Can we reschedule if needed?"}
+VAPI RAW BODY: {"question":"Do we need to sign a waiver?"}
+VAPI RAW BODY: {"question":"What is the cancellation policy?"}
+VAPI RAW BODY: {"question":"Are the pitches indoor or outdoors?"}
+VAPI RAW BODY: {"question":"What happens if we are late to our session?"}
+VAPI RAW BODY: {"question":"Can we bring our own food?"}
+VAPI RAW BODY: {"question":"Can we use the changing room on the day?"}
+VAPI RAW BODY: {"question":"Can we bring alcohol?"}
+VAPI RAW BODY: {"question":"What should you wear for bubble soccer?"}

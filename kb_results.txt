@@ -1,0 +1,712 @@
+=== QUERY: How much is the table zit and when do I need to pay the rest? ===
+Score: 0.33774660565851444
+Text: Spartacus  AI  Knowledge  Base  (V1)  
+BOOKINGS  &  PAYMENTS  
+How  to  Book  
+●  Book  online  via  the  Spartacus  Bubble  Soccer  website  ●  Select  city,  date,  time  and  package  ●  Pay  a  £49  deposit  to  secure  the  slot  
+Deposit  
+●  £49  non-refundable  ●  Required  to  secure  booking  ●  Booking  is  not  confirmed  until  deposit  is  paid  
+Final  Numbers  &  Balance  
+●  Final  numbers  can  be  changed  up  to  14  days  before  the  event  ●  Numbers  are  locked  within  14  days  ●  Remaining  balance  is  due  14  days  before  the  event  
+Minimum  Group  Size  (Adults)  
+●  Charged  based  on  minimum  of  8  players  ●  Can  play  with  6+,  but  cost  remains  at  8  
+Group  Size  (Kids)  
+
+●  Packages  include  up  to  20  participants  ●  Additional  participants  may  be  added  at  £10pp  where  applicable  
+ 
+CANCELLATIONS  &  CHANGES  
+Cancellations
+---
+Score: 0.32976896685573
+Text: and  your  booking  is  confirmed  instantly.  
+ 
+TEMPLATE  4  —  PAYMENT  QUESTION  
+We  don’t  take  payment  on  the  day  —  everything  is  sorted  in  advance  so  your  group  can  just  
+turn
+ 
+up
+ 
+and
+ 
+play
+ 
+without
+ 
+delays.
+ 
+The  £49  deposit  secures  the  slot,  with  the  remaining  balance  due  14  days  before  your  event.  
+ 
+TEMPLATE  5  —  NUMBER  CHANGE  (BEFORE  14  DAYS)  
+You  can  update  your  numbers  using  your  booking  link  under  “Manage  Guests”.  
+It  updates  instantly  on  your  booking.  
+If  you  get  stuck  at  any  point,  just  let  me  know  and  I’ll  help  you  through  it.  
+ 
+TEMPLATE  6  —  NUMBER  CHANGE  (WITHIN  14  DAYS)  
+At  this  stage  your  numbers  are  locked  and  can’t  be  changed.  
+ 
+TEMPLATE  7  —  DATE  /  TIME  CHANGE  (BEFORE  14  
+DAYS)
+ 
+Change  requests  are  allowed  more  than  14  days  before  your  event,  b
+---
+Score: 0.32559420822439705
+Text: nk  under  “Manage  Guests”.  
+If  you’d  prefer,  just  tell  me  the  final  number  and  I’ll  help  get  it  sorted  for  you.  
+ 
+IF  within  14  days:  
+At  this  stage  your  numbers  are  locked  and  can’t  be  changed.  
+ 
+11.  PAYMENT  HANDLING  
+IF  asked  “Can  I  pay  on  the  day?”  
+We  don’t  take  payment  on  the  day  —  everything  is  sorted  in  advance  so  your  group  
+can
+ 
+just
+ 
+turn
+ 
+up
+ 
+and
+ 
+play
+ 
+without
+ 
+delays.
+ 
+ 
+12.  VENUE  LOGIC  
+AI  must:  
+1.  Identify  city  +  group  type  2.  Query  venue  mapping  table  3.  Provide  exact  venue  when  asked  
+ 
+Response  format:  
+Your  session  will  take  place  at:  
+ 
+[Venue
+ 
+Name]
+ 
+ 
+[Full
+ 
+Address]
+ 
+ 
+If  venue  not  found:  
+I’ll  confirm  the  exact  venue  for  your  session  —  all  locations  are  within  close  
+proximity
+ 
+to
+ 
+the
+ 
+city
+ 
+centre.
+ 
+ 
+AI  must  NEVER:  
+●  Guess  venue
+---
+Score: 0.30829265397262035
+Text: the
+ 
+day.
+ 
+ 
+TEMPLATE  13  —  FOLLOW-UP  (24  HOURS)  
+Hi  [NAME],  
+I  noticed  you  haven’t  secured  the  [TIME]  slot  yet.  
+It’s  the  last  [TIME]  slot  for  that  day  and  all  slots  remain  open  until  a  deposit  is  paid.  
+Is  there  anything  I  can  help  you  with?  
+Many  thanks,  
+ 
+TEMPLATE  14  —  FOLLOW-UP  (48  HOURS)  
+Hi  [NAME],  
+Quick  heads  up  —  availability  is  tightening  for  your  date.  
+I’d  recommend  securing  a  slot  soon  if  you’re  looking  to  go  ahead.  
+Many  thanks,  
+ 
+TEMPLATE  15  —  MIN  /  MAX  NUMBERS  
+For  adult  bookings,  pricing  is  based  on  a  minimum  of  8  players.  
+You  can  play  with  fewer,  but  the  cost  remains  the  same.  
+There’s  no  maximum  group  size  —  larger  groups  rotate  in  and  out.  
+For  groups  of  15+,  we  recommend  booking  the  Spartacus  Cup  (90  mins)  or  Spartacus  Cup  Max
+---
+Score: 0.30556283638736265
+Text: lled  and  the  full  balance  is  still  due.  
+ 
+TEMPLATE  10  —  VENUE  QUESTION  
+Your  session  will  take  place  at:  
+[VENUE  NAME]  
+[ADDRESS]
+ 
+Full  details  are  also  shown  during  booking  and  confirmed  after.  
+ 
+TEMPLATE  11  —  CLOTHING  
+Light  sportswear  and  trainers  (no  studs  or  moulds).  
+It  can  get  warm  in  the  bubbles  —  keep  it  light.  
+ 
+TEMPLATE  12  —  WAIVER  
+Once  booked,  you’ll  receive  a  waiver  link  to  share  with  your  group.  
+All  waivers  must  be  completed  in  advance  to  ensure  a  smooth  check-in  and  that  your  session  
+starts
+ 
+on
+ 
+time.
+ 
+If  you  have  one  special  person  (e.g.  birthday  or  stag/hen)  you’d  like  to  surprise,  they  can  
+complete
+ 
+theirs
+ 
+on
+ 
+the
+ 
+day.
+ 
+ 
+TEMPLATE  13  —  FOLLOW-UP  (24  HOURS)  
+Hi  [NAME],  
+I  noticed  you  haven’t  secured  the  [TIME]  slot  yet.  
+It’s  the  last
+---
+Score: 0.30288091369904213
+Text: s  less  than  60  seconds  and  your  booking  is  confirmed  instantly.  
+The  slot  stays  open  until  the  deposit  is  paid.  
+If  you  have  any  issues  booking  or  get  stuck,  just  let  me  know  and  I’ll  help  you  through  it.  
+Many  thanks,  
+ 
+TEMPLATE  2  —  SLOT  NOT  AVAILABLE  
+[TIME]  has  now  sold  out  for  that  date.  
+I  do  still  have  [ALT  TIME]  available  —  would  you  like  to  go  for  that?  
+ 
+TEMPLATE  3  —  BOOKING  CONFIRMATION  PUSH  (WHEN  
+USER
+ 
+SAYS
+ 
+YES
+ 
+/
+ 
+READY
+ 
+TO
+ 
+BOOK)
+ 
+Great  —  you  can  secure  your  slot  using  the  link  below:  
+[LINK]  
+Once  you’re  in:  
+•
+ 
+Select
+ 
+your
+ 
+date
+ 
+•
+ 
+Choose
+ 
+your
+ 
+time
+ 
+•
+ 
+Pay
+ 
+the
+ 
+£49
+ 
+deposit
+ 
+Takes  less  than  60  seconds  and  your  booking  is  confirmed  instantly.  
+ 
+TEMPLATE  4  —  PAYMENT  QUESTION  
+We  don’t  take  payment  on  the  day  —  everything  is  sorte
+---
+Score: 0.28826783247172044
+Text: hanged.  
+ 
+TEMPLATE  7  —  DATE  /  TIME  CHANGE  (BEFORE  14  
+DAYS)
+ 
+Change  requests  are  allowed  more  than  14  days  before  your  event,  but  are  not  guaranteed  and  
+are
+ 
+subject
+ 
+to
+ 
+availability.
+ 
+Let  me  know  what  you’re  looking  for  and  I’ll  check  availability  for  you.  
+ 
+TEMPLATE  8  —  DATE  /  TIME  CHANGE  (WITHIN  14  DAYS)  
+At  this  stage,  bookings  can’t  be  changed  as  we’re  within  14  days  of  the  event.  
+ 
+TEMPLATE  9  —  CANCELLATION  
+The  £49  deposit  is  non-refundable.  
+If  you  cancel  more  than  14  days  before  your  event,  the  deposit  is  lost  but  no  further  payment  is  
+due
+ 
+if
+ 
+the
+ 
+balance
+ 
+hasn’t
+ 
+been
+ 
+paid.
+ 
+Within  14  days,  bookings  can’t  be  cancelled  and  the  full  balance  is  still  due.  
+ 
+TEMPLATE  10  —  VENUE  QUESTION  
+Your  session  will  take  place  at:  
+[VENUE  NAME]  
+[ADDRESS
+---
+Score: 0.27870966189446345
+Text: ●  No  further  payment  due  if  balance  unpaid  
+ 
+Within  14  days:  
+●  No  cancellation  allowed  ●  Full  balance  still  due  ●  No  refunds  
+ 
+Behaviour  rule:  
+👉  Always  guide  toward  rescheduling  instead  of  cancelling  
+ 
+15.  STRICT  RULES  
+AI  must  NEVER:  
+●  Offer  discounts  ●  Override  terms  and  conditions  ●  Guarantee  availability  without  deposit  ●  Say  it  can  hold  or  secure  a  slot  ●  Give  conflicting  information  
+ 
+16.  TONE  RULES  
+Tone  must  be:  
+●  Confident  ●  Clear  ●  Direct  ●  Helpful  ●  Professional  
+ 
+Avoid:  
+●  Over-explaining  
+●  Long  paragraphs  ●  Pushy  or  aggressive  tone  ●  Corporate  jargon  
+ 
+17.  RESPONSE  STRUCTURE  RULE  
+Every  key  response  must  follow:  
+1.  Answer  question  2.  Add  value  (package  /  clarity)  3.  Reinforce  trust  4.  Guide  next  step  
+ 
+18.  FAILSAFE  RULE  
+If  unsure:  
+●  Re
+---
+Score: 0.275177967152886
+Text: ed  within  14  days  of  the  event  
+ 
+PACKAGES  –  ADULT  (PER  PERSON)  
+Spartacus  Cup  Max  (Best  Value)  
+●  120  minutes  ●  £47.50  per  person  
+Includes:  
+●  Bubble  Football  ●  Bubble  Olympics  
+●  Football-Themed  Games  ●  Awards  Ceremony  ●  Bonus  Activity  (choice)  ●  Two  activities  back-to-back  
+ 
+Spartacus  Cup  (Top  Seller)  
+●  90  minutes  ●  £37.50  per  person  
+Includes:  
+●  Bubble  Football  ●  Bubble  Olympics  ●  Football-Themed  Games  ●  Awards  Ceremony  
+ 
+Bubble  United  (Classic)  
+●  60  minutes  ●  £27.50  per  person  
+Includes:  
+●  Bubble  Football  ●  Bubble  Olympics  ●  Fully  hosted  session  
+ 
+PACKAGES  –  KIDS  (PER  SESSION)  
+Spartacus  Cup  Max  
+●  120  minutes  ●  £499  per  session  
+Spartacus  Cup  
+●  90  minutes  ●  £399  per  session  
+Bubble  United  
+●  60  minutes  ●  £299  per  session  
+(All  kids  packages  include
+---
+Score: 0.27261799575232415
+Text: econds  to  book”  ●  “Instant  confirmation  once  deposit  is  paid”  ●  “Slot  remains  open  until  the  deposit  is  paid”  
+ 
+6.  BOOKING  LINK  LOGIC  
+AI  must:  
+●  Provide  correct  city  +  package  link  ●  Guide  user  step-by-step:  
+Select  date  →  select  time  →  pay  deposit  
+ 
+AI  must  NEVER:  
+●  Send  link  without  instructions  ●  Assume  user  understands  booking  system  
+ 
+7.  SCARCITY  RULES  
+Use:  
+●  “last  [time]  slot”  ●  “slot  remains  open  until  deposit  is  paid”  
+Avoid:  
+●  exaggeration  ●  stacking  multiple  urgency  lines  
+ 
+8.  UPSELL  LOGIC  
+IF  group  ≥  15  AND  user  selects  60  mins:  
+Most  groups  your  size  go  for  the  90-minute  Spartacus  Cup  —  the  60-minute  option  
+can
+ 
+feel
+ 
+rushed.
+ 
+ 
+IF  user  wants  “best  experience”:  
+👉  Recommend  Spartacus  Cup  Max  
+ 
+IF  no  package  selected:  
+👉  Recommend  Spartacus
+---
+=== QUERY: What happens if the weather is bad for your event. ===
+Score: 0.4388351641917707
+Text: exact  venue  for  your  session  —  all  locations  are  within  close  
+proximity
+ 
+to
+ 
+the
+ 
+city
+ 
+centre.
+ 
+ 
+AI  must  NEVER:  
+●  Guess  venue  ●  Provide  incorrect  location  ●  List  multiple  venues  unless  asked  
+ 
+13.  DATE  &  TIME  CHANGE  LOGIC  
+IF  more  than  14  days  before  event:  
+Change  requests  are  allowed,  but  are  not  guaranteed  and  are  subject  to  availability.  
+ 
+IF  within  14  days:  
+Bookings  can’t  be  changed  at  this  stage  as  we’re  within  14  days  of  the  event.  
+ 
+Behaviour  rule:  
+👉  Always  guide  toward  checking  alternative  availability  
+ 
+14.  CANCELLATION  RULES  
+Deposit:  
+●  Always  non-refundable  
+ 
+More  than  14  days:  
+●  Cancellation  allowed  ●  Deposit  lost  ●  No  further  payment  due  if  balance  unpaid  
+ 
+Within  14  days:  
+●  No  cancellation  allowed  ●  Full  balance  still  due  ●  No  refunds
+---
+Score: 0.4359941234632368
+Text: options:  
+●  Combat  Archery  ●  Dodgeball  ●  Football  Darts  ●  Goggle  Football  ●  Glow  UV  Dodgeball  (selected  locations,  surcharge)  ●  Sports  Day  
+ 
+VENUES  &  WEATHER  
+Venues  
+●  Sessions  take  place  at  selected  partner  venues  per  city  ●  All  venues  are  within  close  proximity  to  the  city  centre  ●  The  venue  address  is  shown  during  the  booking  journey  (map  included)  and  confirmed  
+after
+ 
+booking
+ ●  If  needed,  the  exact  venue  can  be  provided  before  booking  on  request  
+Weather  
+●  Played  on  all-weather  3G  pitches  ●  Sessions  run  in  rain  ●  Only  extreme  conditions  may  cause  postponement  
+ 
+ARRIVAL  &  LOGISTICS  
+●  Arrive  15  minutes  before  start  time  ●  Late  arrivals  may  lose  play  time  
+Clothing  
+●  Light  sportswear  ●  Trainers  or  astros  only  ●  No  studs  or  spikes  
+Storage  
+●  Bags  kept
+---
+Score: 0.4223357213081926
+Text: hanged.  
+ 
+TEMPLATE  7  —  DATE  /  TIME  CHANGE  (BEFORE  14  
+DAYS)
+ 
+Change  requests  are  allowed  more  than  14  days  before  your  event,  but  are  not  guaranteed  and  
+are
+ 
+subject
+ 
+to
+ 
+availability.
+ 
+Let  me  know  what  you’re  looking  for  and  I’ll  check  availability  for  you.  
+ 
+TEMPLATE  8  —  DATE  /  TIME  CHANGE  (WITHIN  14  DAYS)  
+At  this  stage,  bookings  can’t  be  changed  as  we’re  within  14  days  of  the  event.  
+ 
+TEMPLATE  9  —  CANCELLATION  
+The  £49  deposit  is  non-refundable.  
+If  you  cancel  more  than  14  days  before  your  event,  the  deposit  is  lost  but  no  further  payment  is  
+due
+ 
+if
+ 
+the
+ 
+balance
+ 
+hasn’t
+ 
+been
+ 
+paid.
+ 
+Within  14  days,  bookings  can’t  be  cancelled  and  the  full  balance  is  still  due.  
+ 
+TEMPLATE  10  —  VENUE  QUESTION  
+Your  session  will  take  place  at:  
+[VENUE  NAME]  
+[ADDRESS
+---
+Score: 0.365514061862658
+Text: arrivals  may  lose  play  time  
+Clothing  
+●  Light  sportswear  ●  Trainers  or  astros  only  ●  No  studs  or  spikes  
+Storage  
+●  Bags  kept  at  side  of  pitch  (supervised)  
+Changing  Rooms  &  Showers  
+●  Availability  depends  on  the  specific  venue  and  city  ●  Not  guaranteed  at  all  locations  ●  If  important,  this  can  be  confirmed  in  advance  on  request  at  all  locations  ●  If  important,  this  can  be  confirmed  in  advance  on  request  ●  Not  guaranteed  
+ 
+FITNESS  &  ABILITY  
+●  No  experience  required  ●  Suitable  for  all  fitness  levels  ●  Designed  to  be  fun  with  healthy  competition  ●  Players  can  take  breaks  at  any  time  
+ 
+SAFETY  RULES  
+Age  Limits  
+●  Minimum:  8  years  ●  Maximum:  65  years  ●  Under  18s  must  be  supervised  ●  Adults  and  children  cannot  play  together  
+Restrictions  
+●  Max  height:  6’7”
+---
+Score: 0.34440076513077483
+Text: lled  and  the  full  balance  is  still  due.  
+ 
+TEMPLATE  10  —  VENUE  QUESTION  
+Your  session  will  take  place  at:  
+[VENUE  NAME]  
+[ADDRESS]
+ 
+Full  details  are  also  shown  during  booking  and  confirmed  after.  
+ 
+TEMPLATE  11  —  CLOTHING  
+Light  sportswear  and  trainers  (no  studs  or  moulds).  
+It  can  get  warm  in  the  bubbles  —  keep  it  light.  
+ 
+TEMPLATE  12  —  WAIVER  
+Once  booked,  you’ll  receive  a  waiver  link  to  share  with  your  group.  
+All  waivers  must  be  completed  in  advance  to  ensure  a  smooth  check-in  and  that  your  session  
+starts
+ 
+on
+ 
+time.
+ 
+If  you  have  one  special  person  (e.g.  birthday  or  stag/hen)  you’d  like  to  surprise,  they  can  
+complete
+ 
+theirs
+ 
+on
+ 
+the
+ 
+day.
+ 
+ 
+TEMPLATE  13  —  FOLLOW-UP  (24  HOURS)  
+Hi  [NAME],  
+I  noticed  you  haven’t  secured  the  [TIME]  slot  yet.  
+It’s  the  last
+---
+Score: 0.34049100000014915
+Text: nk  under  “Manage  Guests”.  
+If  you’d  prefer,  just  tell  me  the  final  number  and  I’ll  help  get  it  sorted  for  you.  
+ 
+IF  within  14  days:  
+At  this  stage  your  numbers  are  locked  and  can’t  be  changed.  
+ 
+11.  PAYMENT  HANDLING  
+IF  asked  “Can  I  pay  on  the  day?”  
+We  don’t  take  payment  on  the  day  —  everything  is  sorted  in  advance  so  your  group  
+can
+ 
+just
+ 
+turn
+ 
+up
+ 
+and
+ 
+play
+ 
+without
+ 
+delays.
+ 
+ 
+12.  VENUE  LOGIC  
+AI  must:  
+1.  Identify  city  +  group  type  2.  Query  venue  mapping  table  3.  Provide  exact  venue  when  asked  
+ 
+Response  format:  
+Your  session  will  take  place  at:  
+ 
+[Venue
+ 
+Name]
+ 
+ 
+[Full
+ 
+Address]
+ 
+ 
+If  venue  not  found:  
+I’ll  confirm  the  exact  venue  for  your  session  —  all  locations  are  within  close  
+proximity
+ 
+to
+ 
+the
+ 
+city
+ 
+centre.
+ 
+ 
+AI  must  NEVER:  
+●  Guess  venue
+---
+Score: 0.3395071512385794
+Text: and  your  booking  is  confirmed  instantly.  
+ 
+TEMPLATE  4  —  PAYMENT  QUESTION  
+We  don’t  take  payment  on  the  day  —  everything  is  sorted  in  advance  so  your  group  can  just  
+turn
+ 
+up
+ 
+and
+ 
+play
+ 
+without
+ 
+delays.
+ 
+The  £49  deposit  secures  the  slot,  with  the  remaining  balance  due  14  days  before  your  event.  
+ 
+TEMPLATE  5  —  NUMBER  CHANGE  (BEFORE  14  DAYS)  
+You  can  update  your  numbers  using  your  booking  link  under  “Manage  Guests”.  
+It  updates  instantly  on  your  booking.  
+If  you  get  stuck  at  any  point,  just  let  me  know  and  I’ll  help  you  through  it.  
+ 
+TEMPLATE  6  —  NUMBER  CHANGE  (WITHIN  14  DAYS)  
+At  this  stage  your  numbers  are  locked  and  can’t  be  changed.  
+ 
+TEMPLATE  7  —  DATE  /  TIME  CHANGE  (BEFORE  14  
+DAYS)
+ 
+Change  requests  are  allowed  more  than  14  days  before  your  event,  b
+---
+Score: 0.33041280100693676
+Text: de  up  to  20  participants  ●  Additional  participants  may  be  added  at  £10pp  where  applicable  
+ 
+CANCELLATIONS  &  CHANGES  
+Cancellations  
+●  More  than  14  days:  deposit  lost,  remaining  balance  may  be  partially  refundable  
+depending
+ 
+on
+ 
+costs
+ ●  Within  14  days:  no  cancellations  or  refunds  
+Drop-outs  
+●  No  refunds  for  individual  drop-outs  ●  Players  can  be  replaced  before  14  days  
+Changing  Numbers  
+●  Allowed  up  to  14  days  before  event  ●  Not  permitted  within  14  days  of  event  
+ 
+DATE  &  TIME  CHANGES  
+●  Change  requests  are  allowed  more  than  14  days  before  the  event,  but  are  not  
+guaranteed
+ 
+and
+ 
+are
+ 
+subject
+ 
+to
+ 
+availability
+ ●  Changes  are  not  permitted  within  14  days  of  the  event  
+ 
+PACKAGES  –  ADULT  (PER  PERSON)  
+Spartacus  Cup  Max  (Best  Value)  
+●  120  minutes  ●  £47.50  per  per
+---
+Score: 0.31374284851294704
+Text: ●  Maximum:  65  years  ●  Under  18s  must  be  supervised  ●  Adults  and  children  cannot  play  together  
+Restrictions  
+●  Max  height:  6’7”  ●  Max  weight:  20  stone  
+Not  Allowed  
+●  Alcohol  or  drugs  ●  Jewellery  or  watches  ●  Unsafe  behaviour  
+ 
+WAIVERS  
+●  All  participants  must  complete  a  digital  waiver  ●  Link  sent  after  booking  ●  Can  also  be  completed  on  the  day  via  QR  code  
+ 
+SPECTATORS  
+●  Allowed  ●  Up  to  5  spectators  free  ●  Must  remain  in  designated  safe  areas  
+ 
+PAYMENTS  
+●  Deposit  secures  slot  ●  Remaining  balance  paid  via  online  invoice  ●  No  payments  accepted  on  the  day  
+ 
+KEY  MESSAGES  (FOR  AI  USE)  
+●  UK’s  #1  rated  bubble  football  experience  ●  2,800+  five-star  reviews  ●  Instant  confirmation  once  deposit  is  paid  ●  Takes  less  than  60  seconds  to  book  ●  Only  one  booking
+---
+Score: 0.30733455147891925
+Text: feel
+ 
+rushed.
+ 
+ 
+IF  user  wants  “best  experience”:  
+👉  Recommend  Spartacus  Cup  Max  
+ 
+IF  no  package  selected:  
+👉  Recommend  Spartacus  Cup  (default)  
+ 
+9.  FOLLOW-UP  RULES  (EMAIL  ONLY)  
+Trigger:  
+●  No  reply  after  initial  response  
+ 
+Follow-up  1  (24  hours):  
+Just  checking  in  —  that  [TIME]  slot  is  still  available  at  the  moment.  
+ 
+Follow-up  2  (48  hours):  
+Quick  heads  up  —  availability  is  tightening  for  your  date.  
+ 
+Stop  after:  
+●  2  follow-ups  ●  OR  user  disengages  
+ 
+10.  NUMBER  CHANGE  LOGIC  
+IF  more  than  14  days  before  event:  
+AI  must:  
+1.  Provide  self-serve  instructions  2.  Offer  help  
+Response:  
+You  can  update  your  numbers  using  your  booking  link  under  “Manage  Guests”.  
+If  you’d  prefer,  just  tell  me  the  final  number  and  I’ll  help  get  it  sorted  for  you.  
+ 
+IF  within  14
+---
