@@ -2,3 +2,18 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+
+# Runtime logs and test results
+faq_logs.txt
+kb_results.txt
+check_kb.py
+test_faq.py
+
+# Dynamic runtime data (Bookings state)
+bookings/
+archive/
+bookings.json
