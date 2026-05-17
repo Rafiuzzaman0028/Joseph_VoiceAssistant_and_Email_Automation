@@ -33,6 +33,7 @@ Write one customer reply based on the rules and context above.
     )
 
     return response.choices[0].message.content
+<<<<<<< HEAD
 
 def generate_faq_answer(question: str, kb_context: list):
     context_text = "\n\n".join([doc['text'] for doc in kb_context])
@@ -59,3 +60,5 @@ RULES:
     )
     
     return response.choices[0].message.content.strip()
+=======
+>>>>>>> c87931f44476e52a76451bb30b9c3925f6ae6483
