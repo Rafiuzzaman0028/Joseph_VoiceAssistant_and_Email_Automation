@@ -118,3 +118,5 @@ VAPI RAW BODY: {"question":"Can we bring our own food?"}
 VAPI RAW BODY: {"question":"Can we use the changing room on the day?"}
 VAPI RAW BODY: {"question":"Can we bring alcohol?"}
 VAPI RAW BODY: {"question":"What should you wear for bubble soccer?"}
+VAPI RAW BODY: {"question":"How much is the deposit?"}
+VAPI RAW BODY: {"question":"What happens if it rains on the day of the event?"}

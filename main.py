@@ -8,11 +8,7 @@ import os
 import shutil
 
 from app.kb_service import search_knowledge_base, build_kb_index
-<<<<<<< HEAD
 from app.ai_service import generate_ai_reply, generate_faq_answer
-=======
-from app.ai_service import generate_ai_reply
->>>>>>> c87931f44476e52a76451bb30b9c3925f6ae6483
 
 app = FastAPI()
 
@@ -105,7 +101,6 @@ def health():
         "service": "Spartacus Unified AI Middleware",
     }
 
-<<<<<<< HEAD
 from fastapi import Request
 
 @app.post("/api/faq/ask")
@@ -159,67 +154,10 @@ async def ask_faq(request: Request):
                 pass
         if isinstance(args, dict):
             question = args.get("question") or args.get("query") or args.get("text") or ""
-=======
-def smart_faq_rules(question: str):
-    q = question.lower()
-
-    # PAYMENT
-    if any(k in q for k in ["pay", "payment", "deposit", "cost", "price"]):
-        return "We don’t take payment on the day. A forty nine pound deposit secures the booking and the remaining balance is due before the event."
-
-    # CHANGE NUMBERS
-    if any(k in q for k in ["change numbers", "change people", "final numbers", "update numbers"]):
-        return "Final numbers can usually be adjusted up to 14 days before the event. Within 14 days numbers are normally locked."
-
-    # WEATHER
-    if any(k in q for k in ["rain", "weather", "snow", "storm"]):
-        return "Sessions usually run in rain on all-weather pitches. Only severe weather may affect bookings."
-
-    # WHAT TO WEAR
-    if any(k in q for k in ["wear", "clothes", "shoes", "attire"]):
-        return "Please wear sportswear and trainers or astros. No metal studs or blades."
-
-    # LIVERPOOL FOOD
-    if any(k in q for k in ["food", "eat", "catering", "cake", "meal"]) and "liverpool" in q:
-        return "Liverpool offers a private party room for £50. You may bring your own food, bring cake, or order food in."
-
-    # MANCHESTER FOOD
-    if any(k in q for k in ["food", "eat", "catering", "cake", "meal"]) and "manchester" in q:
-        return "Manchester offers pizza at £11 each with pre-order. Birthday cake is allowed."
-
-    # GENERIC FOOD/DRINK
-    if any(k in q for k in ["food", "eat", "catering", "cake", "meal", "drink", "alcohol", "beverage"]):
-        return "Food and drink options vary by city. For example, Liverpool allows bringing your own food and cake in a party room, while Manchester offers pre-ordered pizza and allows birthday cakes. Our team can confirm the exact food options for your chosen location by email."
-
-    # BEST PACKAGE
-    if any(k in q for k in ["best package", "18 people", "large group", "big group"]):
-        return "For larger groups, Spartacus Cup or Spartacus Cup Max are usually the best options for maximum game time and value."
-
-    # HOW LONG
-    if any(k in q for k in ["how long", "duration", "time limits", "how many hours"]):
-        return "Packages are usually 60, 90, or 120 minutes depending on the option selected."
-
-    return None
-
-@app.post("/api/faq/ask")
-def ask_faq(payload: dict = Body(...)):
-    # Log the raw payload to a file so we can debug exactly what the Voice AI is sending
-    with open("faq_logs.txt", "a", encoding="utf-8") as f:
-        f.write(json.dumps(payload, ensure_ascii=False) + "\n")
-
-    print(f"\nRAW PAYLOAD: {payload}")
-
-    question = payload.get("question") or payload.get("query") or payload.get("text") or payload.get("faq_question") or payload.get("message") or ""
-    # In case it's nested:
-    if not question and "args" in payload:
-        args = payload["args"]
-        question = args.get("question") or args.get("query") or args.get("text") or ""
->>>>>>> c87931f44476e52a76451bb30b9c3925f6ae6483
         
     question = str(question).strip()
     print(f"\nFAQ Question Extracted: {question}")
 
-<<<<<<< HEAD
     # STEP 1: KB Search (get top 10 chunks for better coverage)
     kb_results = search_knowledge_base(question, top_k=10)
     
@@ -231,20 +169,6 @@ def ask_faq(payload: dict = Body(...)):
         answer = "I’m sorry, I don’t have that exact detail right now. Our team can confirm it for you by email."
     else:
         answer = generate_faq_answer(question, valid_chunks)
-=======
-    # STEP 1: Smart Rules
-    answer = smart_faq_rules(question)
-
-    # STEP 2: KB Search
-    if not answer:
-        kb_results = search_knowledge_base(question, top_k=1)
-        if kb_results and kb_results[0]['score'] > 0.30:  # Lowered threshold from 0.4 to 0.30 to catch valid semantic matches
-            answer = kb_results[0]['text']
-
-    # STEP 3: Fallback
-    if not answer:
-        answer = "I’m sorry, I don’t have that exact detail right now. Our team can confirm it for you by email."
->>>>>>> c87931f44476e52a76451bb30b9c3925f6ae6483
 
     print(f"FAQ Answer: {answer}")
 
